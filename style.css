@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.panel {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    width: 100%;
+    height: 100%;
+    max-width: 960px;
+    max-height: 550px;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+}
+
+.todo {
+    background-color: rgb(57, 95, 219);
+}
+
+.working {
+    background-color: rgb(248, 198, 104);
+}
+
+.done {
+    background-color: rgb(72, 226, 72);
+}
+
+.container {
+    background-color: rgb(175, 175, 175);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 10px 0px 10px;
+    font-size: 1.5rem;
+    justify-content: center;
+    width: 270px;
+    overflow: auto;
+}
+
+.item {
+    background-color: rgb(255, 255, 255);
+    border: 20px solid white;
+    cursor: pointer;
+}
